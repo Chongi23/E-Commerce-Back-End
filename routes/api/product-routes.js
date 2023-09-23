@@ -122,7 +122,7 @@ router.delete('/:id', async (req, res) => {
 
     await ProductTag.destroy({
       where: {
-        product_id: req.params.id,
+        id: req.params.id,
       },
     });
     if (!productData) {
