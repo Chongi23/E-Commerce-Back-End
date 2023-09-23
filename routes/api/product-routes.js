@@ -20,6 +20,8 @@ res.status(500).json(err);
 }
 });
 
+
+//Getting 500, come back to this
 // get one product
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
